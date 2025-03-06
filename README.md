@@ -1,5 +1,5 @@
-### 使用说明
-#### server
+## 使用说明
+### server
 ```
 kitex -module ClyMQ -service ClyMQ operations.thrift
 
@@ -17,7 +17,7 @@ sh build.sh
 sh output/bootstrap.sh
 ```
 执行上述命令后Server开始运行
-#### client
+### client
 ```
 go run client/main.go
 ```
